@@ -98,29 +98,6 @@ PagSeguro ou Stripe para processamento de pagamentos.
 
 AWS S3 para armazenamento de imagens e documentos.
 
-Instalação e Configuração
-
-1. Clonar o Repositório
-
-git clone https://github.com/seu-usuario/loja-virtual.git
-cd loja-virtual
-
-2. Configurar o Banco de Dados
-
-Criar um banco de dados PostgreSQL.
-
-Atualizar as credenciais no arquivo application.properties ou application.yml.
-
-3. Executar o Backend
-
-mvn spring-boot:run
-
-4. Executar o Frontend
-
-ng serve
-
-A aplicação estará disponível em http://localhost:4200/.
-
 Considerações Finais
 
 A Loja Virtual foi projetada para oferecer uma plataforma escalável e segura, proporcionando uma experiência fluida para clientes e administradores. A arquitetura modular permite fácil manutenção e expansão de funcionalidades futuras.
